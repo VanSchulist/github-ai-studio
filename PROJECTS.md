@@ -7,11 +7,11 @@ This document tracks all active, incubating, and legacy repositories governed by
 ## 🏛️ Ecosystem Overview (1 + 3 + N Architecture)
 
 ```text
-[ FLAGSHIP ] (Under Architectural Review - Candidates in RESEARCH.md)
+[ FLAGSHIP: mcp-mesh ] (Dynamic MCP Gateway & Lazy Tool Router)
    │
-   ├── [ SATELLITE 1 ] Companion MCP Server
-   ├── [ SATELLITE 2 ] High-Performance Developer CLI
-   └── [ SATELLITE 3 ] Automated Evaluation & Benchmark Harness
+   ├── [ SATELLITE 1: mcp-mesh-eval ] Automated Token & Accuracy Benchmark Harness
+   ├── [ SATELLITE 2: mcp-mesh-ui ] Terminal ANSI Dashboard & Real-Time Call Visualizer
+   └── [ SATELLITE 3: mcp-registry-cli ] Zero-Config Community MCP Server Package Manager
 
 [ INDEPENDENT TACTICAL ASSETS ]
    ├── career-reboot-armor (Career Gap Strategy & Document Compilation)
@@ -28,21 +28,19 @@ This document tracks all active, incubating, and legacy repositories governed by
 
 | Project Name | Primary Purpose | Role | Status | Repository Link | Immediate Next Step |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **`github-ai-studio`** | Central studio governance, ADRs, research tracker, and cross-repo coordination. | Infrastructure | **ACTIVE (Phase 0)** | [`VanSchulist/github-ai-studio`](https://github.com/VanSchulist/github-ai-studio) | Finalize flagship candidate selection. |
-| **`[FLAGSHIP PENDING]`** | Core AI Agent / Developer Tool platform anchor. | Flagship | **PROPOSAL (Phase 0)** | TBD | Review candidate architectural specifications. |
+| **`github-ai-studio`** | Central studio governance, ADRs, research tracker, and cross-repo coordination. | Infrastructure | **ACTIVE (Phase 0)** | [`VanSchulist/github-ai-studio`](https://github.com/VanSchulist/github-ai-studio) | Plan Satellite 1 benchmark harness. |
+| **`mcp-mesh`** | Dynamic Model Context Protocol gateway & lazy tool router slashing Turn-0 token bloat by 85–95%. | **FLAGSHIP** | **PRODUCTION (Phase 3)** | [`VanSchulist/mcp-mesh`](https://github.com/VanSchulist/mcp-mesh) | Build automated benchmark suite (`mcp-mesh-eval`). |
 | **`ghost-job-hunter`** | Heuristic CLI analyzing job descriptions for hiring theater, evergreen pipeline disclosures, and pay transparency evasion. | Tactical Tool | **PRODUCTION (Phase 3)** | [`VanSchulist/ghost-job-hunter`](https://github.com/VanSchulist/ghost-job-hunter) | Add integration hooks for automated LinkedIn/Indeed job scrapers. |
 | **`career-reboot-armor`** | Publication-grade tactical field manual and document generator for career re-entry after medical/family gaps. | Tactical Manual | **PRODUCTION (Phase 3)** | [`VanSchulist/career-reboot-armor`](https://github.com/VanSchulist/career-reboot-armor) | Monitor community feedback and publish PDF release asset. |
-| **`VanSchulist`** | GitHub developer profile README introducing the Existential Cloud brand and open-source portfolio. | Profile Portal | **ACTIVE** | [`VanSchulist/VanSchulist`](https://github.com/VanSchulist/VanSchulist) | Keep synchronized with newest studio releases. |
+| **`VanSchulist`** | GitHub developer profile README introducing the Existential Cloud brand and open-source portfolio. | Profile Portal | **ACTIVE** | [`VanSchulist/VanSchulist`](https://github.com/VanSchulist/VanSchulist) | Feature `mcp-mesh` as primary flagship banner. |
 
 ---
 
 ## 🔗 Planned Satellite Pipeline
 
-*(To be officially initialized once the Flagship architecture is selected)*
-
-1. **Satellite A (The MCP Server Bridge)**:
-   * Translates the Flagship's core capabilities into standard JSON-RPC Model Context Protocol tools, enabling instant zero-config usage in Claude Desktop, Cursor, and Antigravity.
-2. **Satellite B (The Developer CLI & Terminal Visualizer)**:
-   * Ergonomic, fast CLI tool written in Python/Rust with ANSI color coding and formatted tables for interactive terminal power users.
-3. **Satellite C (The Benchmark & Evaluation Harness)**:
-   * Deterministic test suite verifying model reasoning quality, tool-calling success rates, and token consumption across frontier models.
+1. **Satellite 1 (`mcp-mesh-eval`)**:
+   * Deterministic test harness and benchmark measuring tool invocation accuracy vs token consumption across frontier models (Claude 3.7 Sonnet, Gemini 2.0 Flash, GPT-4o).
+2. **Satellite 2 (`mcp-mesh-ui`)**:
+   * Interactive terminal visualizer and lightweight local web dashboard charting real-time MCP call flows, downstream latencies, and token savings metrics.
+3. **Satellite 3 (`mcp-registry-cli`)**:
+   * Zero-config package manager discovering and auto-installing verified community MCP servers directly into `mcp-mesh`.
