@@ -27,7 +27,7 @@
 ---
 
 ## 📊 Dataset & Query Battery
-* **Synthetic Tool Suite**: 50 realistic developer tools spanning GitHub, PostgreSQL, Docker, AWS, Slack, and Filesystem (located in `d:\AntiGravity\Test Claude\mcp-mesh\examples\`).
+* **Synthetic Tool Suite**: 50 realistic developer tools spanning GitHub, PostgreSQL, Docker, AWS, Slack, and Filesystem (referenced from [`mcp-mesh/examples/`](https://github.com/VanSchulist/mcp-mesh/tree/main/examples)).
 * **Test Queries**: 25 standardized ambiguous, multi-step, and targeted developer intent prompts.
 
 ---
