@@ -1,0 +1,3 @@
+# Studio Experiments Directory
+This directory stores isolated, question-driven technical spikes and empirical benchmarks.
+Every experiment must answer a specific technical hypothesis before graduating to production.
