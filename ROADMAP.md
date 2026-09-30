@@ -39,7 +39,7 @@ Phase 7: Stable   <── Phase 6: Ecosystem <── Phase 5: Iterate <── Ph
 - [x] **M0.2 - Flagship Architectural Evaluation**: Review candidate flagship projects, select `mcp-mesh` as primary anchor, and author formal `PROJECT_SPEC.md`.
 - [x] **M1.1 - Flagship Engine Prototype (Phase 1)**: Build the pure-Python zero-dependency MCP stdio gateway, keyword indexer, and lazy router.
 - [x] **M1.2 - Flagship MVP Release (Phase 2 & 3)**: Complete CLI, automated test suite (21 unit tests passing), hero README, and publish `VanSchulist/mcp-mesh` v1.0.0 to GitHub.
-- [ ] **M1.3 - Experiment Spike 1**: Launch first empirical test in `experiments/` benchmarking Gemini 2.0 tool-calling latency vs token footprint under lazy routing.
+- [ ] **M1.3 - Experiment Spike 1**: Launch first empirical test in `experiments/` benchmarking Gemini 3.8 Flash & frontier models tool-calling latency vs token footprint under lazy routing.
 - [ ] **M1.4 - Satellite Project 1 (`mcp-mesh-eval`)**: Build automated benchmark harness comparing token reduction across frontier models.
 
 ### Month 2: Satellite Expansion & Ecosystem Weaving (November 2026)

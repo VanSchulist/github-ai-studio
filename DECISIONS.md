@@ -47,7 +47,7 @@ This document formalizes the technical, architectural, and operational decisions
 * **Date**: 2026-09-30
 * **Status**: Accepted
 * **Context**: Agent tools require reliable function calling, fast inference, and cost-effective context processing.
-* **Decision**: We prioritize **Google Gemini 2.0 / 2.5** (via the modern `google-genai` SDK) for long-context comprehension, multimodal tasks, and low-latency agent loops, while maintaining clean adapter interfaces to local models (via Ollama/vLLM) and OpenAI-compatible endpoints.
+* **Decision**: We prioritize **Google Gemini (Gemini 3.8 Flash / Pro)** (via the modern `google-genai` SDK) for long-context comprehension, multimodal tasks, and low-latency agent loops, while maintaining clean adapter interfaces to local models (via Ollama/vLLM) and OpenAI-compatible endpoints.
 * **Consequences**: Leverages Gemini's million-token context advantage while ensuring our tools remain completely open-weights friendly.
 
 ---

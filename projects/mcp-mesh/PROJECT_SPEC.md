@@ -174,7 +174,7 @@ mcp-mesh/
 * **Phase 1: Core Engine & CLI (MVP v1.0.0)** - *Current*
   * Pure Python stdio multiplexer, search indexer, token meter, full test suite.
 * **Phase 2: Benchmark Suite (`mcp-mesh-eval`)** - *Satellite 1*
-  * Automated harness testing token reduction vs tool invocation success across Gemini 2.0 Flash, Claude 3.7, and GPT-4o.
+  * Automated harness testing token reduction vs tool invocation success across September 2026 models (GPT-6 Astra, Claude Sonnet 5.5, Gemini 3.8 Flash, DeepSeek-V4.1-Flash).
 * **Phase 3: Visualizer (`mcp-mesh-ui`)** - *Satellite 2*
   * Interactive terminal UI and web dashboard charting real-time tool calls, token savings, and downstream latencies.
 * **Phase 4: Community Registry (`mcp-registry-cli`)** - *Satellite 3*

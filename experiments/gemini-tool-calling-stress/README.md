@@ -1,7 +1,7 @@
-# 🧪 Experiment 01: Gemini 2.0 Tool-Calling Latency & Precision Under Schema Bloat
+# 🧪 Experiment 01: Gemini 3.8 Flash Tool-Calling Latency & Precision Under Schema Bloat
 
 > **Status**: IN PROGRESS  
-> **Target Question**: *"How does tool-calling precision, parameter accuracy, and Time-To-First-Token (TTFT) degrade in Gemini 2.0 when exposed to 50+ tool schemas versus 3 lazy gateway meta-tools?"*  
+> **Target Question**: *"How does tool-calling precision, parameter accuracy, and Time-To-First-Token (TTFT) degrade in Gemini 3.8 Flash when exposed to 50+ tool schemas versus 3 lazy gateway meta-tools?"*  
 > **Lead Researcher**: Van Schulist (@VanSchulist / Existential Cloud)
 
 ---
