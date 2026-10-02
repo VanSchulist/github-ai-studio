@@ -44,7 +44,7 @@ Phase 7: Stable   <── Phase 6: Ecosystem <── Phase 5: Iterate <── Ph
 ### Month 2: Satellite Expansion & Ecosystem Weaving (November 2026)
 
 - [x] **M2.1 - Satellite Project 2 (`mcp-mesh-ui` / `mcp-mesh monitor`)**: Create companion terminal dashboard or lightweight local web visualizer for real-time tool traffic.
-- [ ] **M2.2 - Satellite Project 3 (`mcp-registry-cli`)**: Zero-config 1-command installer for popular community MCP servers.
+- [x] **M2.2 - Satellite Project 3 (`mcp-registry-cli`)**: Zero-config 1-command package manager & registry for popular community MCP servers ([Repo](https://github.com/VanSchulist/mcp-registry-cli)).
 - [x] **M2.3 - Flagship v1.1.0 Iteration**: Implement dynamic LRU caching for high-frequency tool schemas and telemetry export.
 - [ ] **M2.4 - Experiment Spike 2**: Multimodal agentic testing spike evaluating document parsing and code refactoring.
 
@@ -58,7 +58,8 @@ Phase 7: Stable   <── Phase 6: Ecosystem <── Phase 5: Iterate <── Ph
 | `M0-FLAGSHIP-PROPOSALS` | 2026-09-30 | 5 candidate flagship specifications and technical dossier | **DONE** |
 | `M0-FLAGSHIP-SELECTION` | 2026-09-30 | Select `mcp-mesh` & finalize `PROJECT_SPEC.md` | **DONE** |
 | `M1-FLAGSHIP-MVP` | 2026-09-30 | `mcp-mesh` v1.0.0 released on GitHub (100% test pass rate) | **DONE** |
-| `M1-EXPERIMENT-01` | 2026-10-07 | Empirical LLM tool-calling benchmark published in `experiments/` | **ACTIVE** |
-| `M2-SATELLITE-EVAL` | 2026-10-15 | Companion benchmark harness (`mcp-mesh-eval`) published | PENDING |
-| `M2-SATELLITE-UI` | 2026-10-30 | Terminal visualizer (`mcp-mesh-ui`) published | PENDING |
-| `M2-ECOSYSTEM-V1` | 2026-11-20 | Interconnected Flagship + Satellites live | PENDING |
+| `M1-EXPERIMENT-01` | 2026-10-01 | Empirical LLM tool-calling benchmark published in `experiments/` | **DONE** |
+| `M2-SATELLITE-EVAL` | 2026-10-01 | Companion benchmark harness (`mcp-mesh-eval`) v1.0.0 published | **DONE** |
+| `M2-SATELLITE-UI` | 2026-10-01 | Terminal visualizer (`mcp-mesh monitor`) published in v1.1.0 | **DONE** |
+| `M2-SATELLITE-REGISTRY` | 2026-10-02 | Community package manager (`mcp-registry-cli`) v1.0.0 published | **DONE** |
+| `M2-ECOSYSTEM-V1` | 2026-10-02 | Interconnected Flagship + 3 Satellites live | **DONE** |
