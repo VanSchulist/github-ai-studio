@@ -63,3 +63,5 @@ Phase 7: Stable   <── Phase 6: Ecosystem <── Phase 5: Iterate <── Ph
 | `M2-SATELLITE-UI` | 2026-10-01 | Terminal visualizer (`mcp-mesh monitor`) published in v1.1.0 | **DONE** |
 | `M2-SATELLITE-REGISTRY` | 2026-10-02 | Community package manager (`mcp-registry-cli`) v1.0.0 published | **DONE** |
 | `M2-ECOSYSTEM-V1` | 2026-10-02 | Interconnected Flagship + 3 Satellites live | **DONE** |
+| `M2-HARDENING-RESILIENCE` | 2026-10-12 | `mcp-mesh` v1.2.0 (SQLite telemetry ledger, watchdog, circuit breaker) | **DONE** |
+| `M2-ANTIGRAVITY-INTEGRATION` | 2026-10-12 | `mcp-registry-cli` v1.1.0 (Google Antigravity native client & sync) | **DONE** |
