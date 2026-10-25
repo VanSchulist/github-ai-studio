@@ -3,10 +3,12 @@
 
 [![Maintained by Van Schulist](https://img.shields.io/badge/Operator-Van%20Schulist%20(@VanSchulist)-8A2BE2?style=flat-square)](https://github.com/VanSchulist)
 [![Focus: AI Agents & MCP](https://img.shields.io/badge/Focus-AI%20Agents%20%7C%20MCP%20%7C%20Developer%20Tools-blue?style=flat-square)](https://github.com/VanSchulist)
-[![Architecture: 1+3+N](https://img.shields.io/badge/Architecture-1%20Flagship%20%2B%20Satellites-success?style=flat-square)](https://github.com/VanSchulist)
+[![Portal: Live](https://img.shields.io/badge/Official%20Portal-Live%20on%20GitHub%20Pages-10b981?style=flat-square)](https://vanschulist.github.io/existentialcloud-portal/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 Welcome to the central repository and governance hub for **Existential Cloud**—an autonomous open-source development studio founded by **Van Schulist**. 
+
+Explore the official developer portal and live interactive token savings simulator at **[vanschulist.github.io/existentialcloud-portal](https://vanschulist.github.io/existentialcloud-portal/)**. 
 
 This repository serves as the engineering nervous system for all research, architecture decisions, roadmaps, project specifications, and cross-repository synchronization.
 
