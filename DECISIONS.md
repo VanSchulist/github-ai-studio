@@ -11,6 +11,7 @@ This document formalizes the technical, architectural, and operational decisions
 * [ADR-003: Model Context Protocol (MCP) as Primary Interoperability Fabric](#adr-003-model-context-protocol-mcp-as-primary-interoperability-fabric)
 * [ADR-004: Frontier Model Priority: Gemini Native + Open Model Fallback](#adr-004-frontier-model-priority-gemini-native--open-model-fallback)
 * [ADR-005: Specification-First Engineering Gateways](#adr-005-specification-first-engineering-gateways)
+* [ADR-006: Native Multi-Shell Auto-Completion Without External Frameworks](#adr-006-native-multi-shell-auto-completion-without-external-frameworks)
 
 ---
 
@@ -58,3 +59,16 @@ This document formalizes the technical, architectural, and operational decisions
 * **Context**: "Vibe coding" without disciplined architecture leads to chaotic agent hallucinations, orphaned code, and lack of long-term maintainability.
 * **Decision**: No project repository may be initialized without an approved `PROJECT_SPEC.md` containing: Problem Definition, User Personas, Architecture Diagram, 5-stage Roadmap, and Testing Strategy.
 * **Consequences**: Enforces world-class engineering rigor while preserving rapid agentic development velocity.
+
+---
+
+### ADR-006: Native Multi-Shell Auto-Completion Without External Frameworks
+* **Date**: 2026-10-26
+* **Status**: Accepted
+* **Context**: Modern developer CLI utilities require tab-completion to minimize invocation friction. However, standard Python CLI completion packages (e.g., `argcomplete`, `click`, `typer`) pull in heavy external dependencies or require system-wide python hooks, which directly violates [ADR-002: Zero-External-Dependency Standard](#adr-002-zero-external-dependency-standard-for-cli-utilities).
+* **Decision**: Author self-contained shell completion script generators in pure Python standard library (`mcp_mesh.completion`) exposed via the `mcp-mesh completion [bash|zsh|powershell|pwsh]` subcommand. Each generator outputs idiomatic, production-ready completion scripts:
+  - **Bash**: POSIX-compatible `_mcp_mesh_completion()` using `compgen -W` and `complete -F`.
+  - **Zsh**: Native `#compdef mcp-mesh` utilizing `_describe` and `_arguments`.
+  - **PowerShell / pwsh**: Native `Register-ArgumentCompleter -Native` leveraging AST inspection (`CompletionResult`).
+* **Consequences**: Achieves first-class developer ergonomics across Linux, macOS, and Windows with zero external runtime or installation dependencies. Easily tested using built-in `unittest` harness.
+
