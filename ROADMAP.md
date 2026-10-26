@@ -66,3 +66,4 @@ Phase 7: Stable   <── Phase 6: Ecosystem <── Phase 5: Iterate <── Ph
 | `M2-HARDENING-RESILIENCE` | 2026-10-12 | `mcp-mesh` v1.2.0 (SQLite telemetry ledger, watchdog, circuit breaker) | **DONE** |
 | `M2-ANTIGRAVITY-INTEGRATION` | 2026-10-12 | `mcp-registry-cli` v1.1.0 (Google Antigravity native client & sync) | **DONE** |
 | `M2-CLI-DX-COMPLETION` | 2026-10-26 | `mcp-mesh` native Bash/Zsh/PowerShell completions (Fixes #6, 82 tests) | **DONE** |
+| `M2-PIPELINE-STRUCTURED-EXPORT` | 2026-10-27 | `ghost-job-hunter` structured JSON & CSV export (Fixes #4, 38 tests) | **DONE** |
