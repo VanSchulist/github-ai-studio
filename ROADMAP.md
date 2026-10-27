@@ -68,3 +68,4 @@ Phase 7: Stable   <── Phase 6: Ecosystem <── Phase 5: Iterate <── Ph
 | `M2-CLI-DX-COMPLETION` | 2026-10-26 | `mcp-mesh` native Bash/Zsh/PowerShell completions (Fixes #6, 82 tests) | **DONE** |
 | `M2-PIPELINE-STRUCTURED-EXPORT` | 2026-10-27 | `ghost-job-hunter` structured JSON & CSV export (Fixes #4, 38 tests) | **DONE** |
 | `M2-REGISTRY-DOCTOR` | 2026-10-27 | `mcp-registry-cli` v1.2.0 (`doctor` diagnostic check, catalog expanded to 27, Fixes #2, 36 tests) | **DONE** |
+| `M2-ATS-API-INGESTION` | 2026-10-27 | `ghost-job-hunter` v2.2.0 (native Greenhouse & Lever ATS API parsers, Fixes #3, 42 tests) | **DONE** |
