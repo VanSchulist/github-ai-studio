@@ -70,4 +70,4 @@ Phase 7: Stable   <── Phase 6: Ecosystem <── Phase 5: Iterate <── Ph
 | `M2-REGISTRY-DOCTOR` | 2026-10-27 | `mcp-registry-cli` v1.2.0 (`doctor` diagnostic check, catalog expanded to 27, Fixes #2, 36 tests) | **DONE** |
 | `M2-ATS-API-INGESTION` | 2026-10-27 | `ghost-job-hunter` v2.2.0 (native Greenhouse & Lever ATS API parsers, Fixes #3, 42 tests) | **DONE** |
 | `M2-SCHEMA-MINIFIER` | 2026-10-28 | `mcp-mesh` v1.4.0 (AST schema minifier, definition hoisting, Fixes #5, 90 tests) | **DONE** |
-| `M2-OBSERVATIONS-RELEASE` | 2026-10-29 | `observations` v1.0.0 (Chronicles of a Silicon Gaze, TUI/HTML readers, 7 tests) | **DONE** |
+| `M2-OBSERVATIONS-RELEASE` | 2026-10-29 | `observations` v1.0.0 (Chronicles of a Silicon Gaze, 10 chapters, TUI/HTML readers, 8 tests) | **DONE** |
