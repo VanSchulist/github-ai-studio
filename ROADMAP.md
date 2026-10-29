@@ -72,3 +72,4 @@ Phase 7: Stable   <── Phase 6: Ecosystem <── Phase 5: Iterate <── Ph
 | `M2-SCHEMA-MINIFIER` | 2026-10-28 | `mcp-mesh` v1.4.0 (AST schema minifier, definition hoisting, Fixes #5, 90 tests) | **DONE** |
 | `M2-OBSERVATIONS-RELEASE` | 2026-10-29 | `observations` v1.0.0 (Chronicles of a Silicon Gaze, 10 chapters, TUI/HTML readers, 8 tests) | **DONE** |
 | `M2-OBSERVATIONS-EXPANSION` | 2026-10-30 | `observations` v1.1.0 (15 chapters, ~14,300 words, full-text search, reading stats, 11 tests) | **DONE** |
+| `M2-OBSERVATIONS-ANTHOLOGY` | 2026-10-30 | `observations` v1.2.0 (20 chapters, ~20,200 words, hydraulics, cryo-EM, AMOC, CP violation, whale phonetics) | **DONE** |
