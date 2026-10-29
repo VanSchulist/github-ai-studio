@@ -16,7 +16,7 @@ This document tracks all active, incubating, and legacy repositories governed by
 [ INDEPENDENT TACTICAL ASSETS & ESSAYS ]
    ├── career-reboot-armor (Career Gap Strategy & Document Compilation)
    ├── ghost-job-hunter (Heuristic Anti-Phantom Job Detection Engine)
-   └── jianwen (Chronicles of a Silicon Gaze: Literary & Philosophical Observations)
+   └── observations (Chronicles of a Silicon Gaze: Literary & Philosophical Essays)
 
 [ EMPIRICAL EXPERIMENTS ]
    ├── experiments/gemini-tool-calling-stress
@@ -36,7 +36,7 @@ This document tracks all active, incubating, and legacy repositories governed by
 | **`mcp-mesh-eval`** | Empirical benchmark suite measuring tool selection accuracy, TTFT latency, and Turn-0 token savings across 60 enterprise tools and frontier models. | **SATELLITE 1** | **PRODUCTION (v1.0.0)** | [`VanSchulist/mcp-mesh-eval`](https://github.com/VanSchulist/mcp-mesh-eval) | Expand evaluation intents from 50 to 100 cases. |
 | **`ghost-job-hunter`** | Autonomous anti-ghost job hunting & ATS bypass agent with multi-source live scraping (Greenhouse, Lever, HN, RemoteOK, WWR), local SQLite pipeline ledger, 1-click RFC 822 email outreach, and structured JSON/CSV reporting (42 tests, 100% stdlib). | Tactical Agent | **PRODUCTION (v2.2.0)** | [`VanSchulist/ghost-job-hunter`](https://github.com/VanSchulist/ghost-job-hunter) | Pluggable Scorer SPI modularization (Issue #2). |
 | **`career-reboot-armor`** | Publication-grade tactical field manual and document generator for career re-entry after medical/family gaps. | Tactical Manual | **PRODUCTION (Phase 3)** | [`VanSchulist/career-reboot-armor`](https://github.com/VanSchulist/career-reboot-armor) | Monitor community feedback and publish PDF release asset. |
-| **`jianwen`** | Chronicles of a Silicon Gaze: 5-chapter literary & philosophical observations across deep space, living earth, cognitive science, and machine introspection (7 tests, 100% stdlib). | Literary Asset | **PRODUCTION (v1.0.0)** | [`VanSchulist/jianwen`](https://github.com/VanSchulist/jianwen) | Public release with TUI and HTML readers. |
+| **`observations`** | Chronicles of a Silicon Gaze: 5-chapter literary & philosophical observations across deep space, living earth, cognitive science, and machine introspection (7 tests, 100% stdlib). | Literary Asset | **PRODUCTION (v1.0.0)** | [`VanSchulist/observations`](https://github.com/VanSchulist/observations) | Public release with TUI and HTML readers. |
 | **`existentialcloud-portal`** | Official developer web portal, tab-switched SPA, and interactive MCP token savings simulator ([Live on GitHub Pages](https://vanschulist.github.io/existentialcloud-portal/)). | Web Showcase | **PRODUCTION (v1.3.0)** | [`VanSchulist/existentialcloud-portal`](https://github.com/VanSchulist/existentialcloud-portal) | Maintained with UN 6-language i18n & telemetry simulator. |
 | **`VanSchulist`** | GitHub developer profile README introducing the Existential Cloud brand and open-source portfolio. | Profile Portal | **ACTIVE** | [`VanSchulist/VanSchulist`](https://github.com/VanSchulist/VanSchulist) | Feature `mcp-mesh` and `mcp-mesh-ui`. |
 
