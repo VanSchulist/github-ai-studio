@@ -75,3 +75,4 @@ Phase 7: Stable   <── Phase 6: Ecosystem <── Phase 5: Iterate <── Ph
 | `M2-OBSERVATIONS-ANTHOLOGY` | 2026-10-30 | `observations` v1.2.0 (20 chapters, ~20,200 words, hydraulics, cryo-EM, AMOC, CP violation, whale phonetics) | **DONE** |
 | `M2-OBSERVATIONS-COMPLETE` | 2026-10-30 | `observations` v1.3.0 (25 chapters, ~25,900 words, cosmic web, ribosomes, spacetime foam, fungal language, attention) | **DONE** |
 | `M2-OBSERVATIONS-MILESTONE` | 2026-10-30 | `observations` v1.4.0 (30 chapters, ~32,200 words, cryoseismology, Casimir effect, cephalopod RNA, magnetars, Landauer thermodynamics) | **DONE** |
+| `M2-OBSERVATIONS-EXPANSION-35` | 2026-10-30 | `observations` v1.5.0 (35 chapters, ~38,400 words, muon g-2, homochirality, Lost City serpentinization, caustic lensing, sleep homeostasis) | **DONE** |
